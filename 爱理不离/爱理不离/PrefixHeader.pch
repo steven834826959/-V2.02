@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  爱理不离
+//
+//  Created by Steven on 2016/10/15.
+//  Copyright © 2016年 cn.stevenyongtong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//屏幕尺寸
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_FRAME [UIScreen mainScreen].bounds
+
+
+#define GLOBALCOLOR(r,g,b,a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:1]
+
+//背景色
+#define BackgroundColor GLOBALCOLOR(229, 229, 229,1)
+//基础URL
+
+#define BaseURL @"http://mapi.ailibuli.com/"
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "YTCommon.h"
+#import "UIImage+YT.h"
+#import "UIImageView+WebCache.h"
+#import "YTHttpTool.h"
+#import "NSString+URL.h"
+#import "HiddenAndShowTool.h"
+#import "AFNetworking.h"
+#import "UIImage+YT.h"
+#import "UIView+Frame.h"
+#import "AlertTool.h"
+#import "YTLoginTool.h"
+#import "NSString+YTDateStr.h"
+
+//url相关
+#define kDominURL @"http://117.78.50.198"
+
+#endif /* PrefixHeader_pch */
